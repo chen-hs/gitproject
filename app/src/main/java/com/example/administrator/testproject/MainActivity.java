@@ -9,5 +9,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initView();
+        initData();
+        initListener();
+    }
+
+    private void initView() {
+    }
+
+    private void initData() {
+    }
+
+    private void initListener() {
     }
 }
